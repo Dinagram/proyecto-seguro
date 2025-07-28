@@ -1,8 +1,7 @@
 import os
-from dotenv import load_dotenv
-from flask import Flask, jsonify
 
-load_dotenv()  # Solo en desarrollo local
+from flask import Flask, jsonify
+#de normal aqui cragarias el env
 
 app = Flask(__name__)
 
